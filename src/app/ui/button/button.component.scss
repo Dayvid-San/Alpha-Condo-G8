@@ -1,0 +1,11 @@
+@import '../../../../styles/mixins/colors.scss';
+
+.btn{
+    padding: 0.5em;
+    width: 6em;
+    height: 0.5;
+    color: $primary-button-color;
+    background-color: $primary-bg-button-color;
+    border: solid #ffffff 1px;
+    border-radius: 2px;
+}
