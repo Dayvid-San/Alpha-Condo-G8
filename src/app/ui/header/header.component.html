@@ -1,8 +1,23 @@
 <div class="container">
     <div class="container_LogoTipo">
         <h3>Logo</h3>
+    </div>
     <nav class="menu_btn">
-        <app-button></app-button>
+        <app-button 
+            buttonLabel="Moradores" 
+            buttonClass="primary" 
+            (buttonClick)="handleButtonClick()">
+        ></app-button>
+        <app-button 
+            buttonLabel="Fórum" 
+            buttonClass="primary" 
+            (buttonClick)="handleButtonClick()">
+        ></app-button>
+        <app-button 
+            buttonLabel="Projetos" 
+            buttonClass="primary" 
+            (buttonClick)="handleButtonClick()">
+        ></app-button>
     </nav>
     <div class="container_Profile">
         <h3>Photo user</h3>

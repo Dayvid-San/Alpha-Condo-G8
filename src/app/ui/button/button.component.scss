@@ -1,6 +1,6 @@
 @import '../../../../styles/mixins/colors.scss';
 
-.btn{
+.primary {
     padding: 0.5em;
     width: 6em;
     height: 0.5;
@@ -8,4 +8,11 @@
     background-color: $primary-bg-button-color;
     border: solid #ffffff 1px;
     border-radius: 2px;
+}
+
+
+
+.secondary {
+    background-color: gray;
+    color: black;
 }
