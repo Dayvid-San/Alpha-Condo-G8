@@ -13,5 +13,6 @@ import { HeaderComponent } from "./ui/header/header.component";
   ]
 })
 export class AppComponent {
-  title = 'alpha-condo-G8';
+  nameCondo = 'G8'
+  title = 'Alpha Condo | ' + this.nameCondo;
 }
