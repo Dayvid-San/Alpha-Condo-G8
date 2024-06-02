@@ -12,7 +12,7 @@ export class ButtonComponent {
 [x: string]: any;
   @Input() buttonLabel: string = 'Clique';
   @Input() buttonType: string = 'button';
-  @Input() buttonClass: string = 'btn';
+  @Input() buttonClass: string = 'primary';
 
   @Output() buttonClick = new EventEmitter<void>();
 
