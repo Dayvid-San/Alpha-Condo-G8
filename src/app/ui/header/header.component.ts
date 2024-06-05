@@ -13,7 +13,6 @@ import { PhotoComponent } from '../../photo/photo.component';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  logo: string = 'https://alphacondo.netlify.app/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Flogo_G8.6ae40645.png?url=%2F_next%2Fstatic%2Fmedia%2Flogo_G8.6ae40645.png&w=640&q=75'
   handleButtonClick(): void {
     alert('It is working!');
   }

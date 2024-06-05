@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./ui/header/header.component";
+import { ResidentComponent } from './features/resident/resident.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { HeaderComponent } from "./ui/header/header.component";
   styleUrl: './app.component.scss',
   imports: [
     RouterOutlet,
-    HeaderComponent
+    HeaderComponent,
+    ResidentComponent
   ]
 })
 export class AppComponent {
