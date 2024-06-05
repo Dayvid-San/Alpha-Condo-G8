@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardComponent } from '../../ui/card/card.component';
+import { CardComponent } from '../../../core/ui/card/card.component';
 
 @Component({
   selector: 'app-resident',
