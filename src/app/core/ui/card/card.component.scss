@@ -1,0 +1,15 @@
+.card {
+    position: relative;
+    margin-top: 0.8em;
+
+    width: 17em;
+    height: 10em;
+    padding: 0.7em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    transition: 300ms;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./ui/header/header.component";
+import { HeaderComponent } from "./core/ui/header/header.component";
+import { ResidentComponent } from './accounts/features/resident/resident.component';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,11 @@ import { HeaderComponent } from "./ui/header/header.component";
   styleUrl: './app.component.scss',
   imports: [
     RouterOutlet,
-    HeaderComponent
+    HeaderComponent,
+    ResidentComponent
   ]
 })
 export class AppComponent {
-  title = 'alpha-condo-G8';
+  nameCondo = 'G8'
+  title = 'Alpha Condo | ' + this.nameCondo;
 }

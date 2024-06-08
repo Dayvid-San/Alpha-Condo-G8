@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.container_resident {
+    position: relative;
+    top: 9em;
+}
+
+.container_card{
+    position: relative;
+    top: 1em;
+    align-items: center;
+    justify-content: space-around;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
