@@ -1,4 +1,4 @@
-<div class="container" (onClick)="onCLick">
+<div class="container" (click)="onClick()">
     <h1 class="title">
         {{title}}
     </h1>
@@ -8,14 +8,14 @@
 </div>
 
 @if (cardStatus){
-    <section class="containerCard">
-        <div class="cardInfo">
-            <h1 class="titleCard">
-                {{title}}
-            </h1>
-            <div class="textCard">
-                {{text}}
-            </div>
+<section class="containerCard" (click)="onClick()">
+    <div class="cardInfo">
+        <h1 class="titleCard">
+            {{title}}
+        </h1>
+        <div class="textCard">
+            {{text}}
         </div>
-    </section>
+    </div>
+</section>
 }

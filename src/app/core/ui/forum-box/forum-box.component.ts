@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-forum-box',
@@ -8,12 +8,14 @@ import { Component, Input } from '@angular/core';
   styleUrl: './forum-box.component.scss'
 })
 export class ForumBoxComponent {
-  cardStatus: boolean = true;
+  cardStatus: boolean = false;
 
   @Input() title: string = 'Título tópico';
   @Input() text: string = 'Tópico vazio';
 
-  onCLick () {
-    this.cardStatus = true
+  @Output() cardClick = new EventEmitter<void>();
+
+  onClick (): boolean {
+    return this.cardStatus == false ? this.cardStatus = true : this.cardStatus = false;
   }
  }
