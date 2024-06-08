@@ -1,0 +1,21 @@
+<div class="container" (onClick)="onCLick">
+    <h1 class="title">
+        {{title}}
+    </h1>
+    <div class="text">
+        {{text}}
+    </div>
+</div>
+
+@if (cardStatus){
+    <section class="containerCard">
+        <div class="cardInfo">
+            <h1 class="titleCard">
+                {{title}}
+            </h1>
+            <div class="textCard">
+                {{text}}
+            </div>
+        </div>
+    </section>
+}
