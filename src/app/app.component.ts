@@ -14,7 +14,4 @@ import { ResidentComponent } from './accounts/features/resident/resident.compone
     ResidentComponent
   ]
 })
-export class AppComponent {
-  nameCondo = 'G8'
-  title = 'Alpha Condo | ' + this.nameCondo;
-}
+export class AppComponent {}
