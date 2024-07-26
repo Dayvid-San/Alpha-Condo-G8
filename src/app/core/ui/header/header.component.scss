@@ -13,10 +13,13 @@
     align-items: center;
 };
 
+.container_LogoTipo{
+    
+}
+
 .logoTipo{
-    width: 3.4em;
-    height: 3.4em;
-    border-radius: 50%;
+    width: auto 4em;
+    height: 4em;
     object-fit: cover;
     border: 2px solid transparent;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
