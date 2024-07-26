@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './photo.component.scss'
 })
 export class PhotoComponent {
-  src: string = 'https://dayvidsantana.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FDayvid%20Santana.8e13ae1c.jpeg&w=384&q=75';
+  src: string = 'https://github.com/user-attachments/assets/886992d2-1f26-417b-a989-99c95142ddc8';
 
   
 }
