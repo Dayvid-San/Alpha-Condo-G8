@@ -1,0 +1,17 @@
+.container {
+    top: 9em;
+    left: 0;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topics {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
